@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dad's Blog</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            color: #333;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #ff6f61;
+        }
+        p {
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+        .scroll-btn {
+            display: block;
+            width: 150px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        .scroll-btn:hover {
+            background-color: #ff8a80;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Dad's Blog</h1>
+        <nav>
+            <a href="#post1">First Post</a>
+            <a href="#post2">A Special Message</a>
+        </nav>
+    </header>
+    <div class="container" id="post1">
+        <article>
+            <h2>My First Blog Post</h2>
+            <p>Hey Dad, welcome to this special blog I made just for you! I know things might be a little rough between us right now, but I wanted to take a moment to share my thoughts. I truly appreciate everything you’ve done for me, and I hope this can be a small step towards mending things.</p>
+        </article>
+    </div>
+    <div class="container" id="post2">
+        <article>
+            <h2>A Special Message for My Dad</h2>
+            <p>Dear Dad, I know I might have disappointed you, and for that, I am truly sorry. I want you to know how much you mean to me. Your guidance, love, and strength have always been my pillars. I promise to do better, to learn from my mistakes, and to make you proud. Let’s sit together and talk things through when you’re ready. I love you!</p>
+        </article>
+        <a href="#post1" class="scroll-btn">Back to Top</a>
+    </div>
+    <footer>
+        <p>&copy; 2024 Dad's Blog. Made with Love.</p>
+    </footer>
+</body>
+</html>
